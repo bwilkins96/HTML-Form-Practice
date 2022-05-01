@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang = "en-US">
+    <head>
+        <meta charset = "utf-8">
+        <title> programmingSurvey  </title>
+    </head>
+
+    <body>
+        <h1> Programming Language Survey </h1>
+
+        <form action = "/form-handling-url" method = "post">
+            <fieldset>
+                <legend> Add User </legend>
+
+                <div>
+                    <label for = "firstName"> First name </label>
+                    <input type = "text" id = "firstName" name = "first_name">
+                </div>
+
+                <div>
+                    <label for = "lastName"> Last name </label>
+                    <input type = "text" id = "lastName" name = "last_name">
+                </div>
+
+                <div>
+                    <label for = "email"> Email </label>
+                    <input type = "text" id = "email" name = "email_address">
+                </div>
+
+                <div>
+                    <label for = "status"> Status </label>
+                    <select id = "status" name = "status">
+                        <option value = "student"> Student </option>
+                        <option value = "instructor"> Instructor </option>
+                        <option value = "guest"> Guest </option>
+                    </select>
+                </div>
+
+                <div>
+                    <p> Choose your favorite programming language: </p>
+                    <label for = "java"> JavaScript </label>
+                    <input type = "radio" id = "java" name = "java">
+                    <label for = "css"> CSS </label>
+                    <input type = "radio" id = "css" name = "css">
+                    <label for = "html"> HTML </label>
+                    <input type = "radio" id = "html" name = "html">
+                </div>
+
+                <div>
+                    <label for = "date"> Current Date </label>
+                    <input type = "date" id = "date" name = "date">
+                </div>
+
+                <div>
+                    <label for = "comments"> Comments </label>
+                    <textarea id = "comments" name = "comments"> </textarea>
+                </div>
+
+                <div>
+                    <label for = "newsletter"> Sign up for newsletter </label>
+                    <input type = "checkbox" id = "newsletter" name = "newsletter" >
+                </div>
+
+                <div>
+                    <label for = "terms"> Agree to terms and conditions </label>
+                    <input type = "checkbox" id = "terms" name = "terms" >
+                </div>
+
+                <div>
+                    <button type = "submit"> Add this person </button>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>
